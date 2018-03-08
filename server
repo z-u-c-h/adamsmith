@@ -11,7 +11,7 @@ s.bind(ADDRESS)
 s.listen(5)
 
 while True:
-    print 'Waiting for clients cennect!'
+    print 'Waiting for clients connect!'
     tcpclient,addr = s.accept()
     print 'Connected By ',addr
 
